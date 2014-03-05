@@ -5,43 +5,38 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>tylerportfolio</title>
 <div class="header_img">
-	<a href="http://totalvideopro.no-ip.biz" onfocus="this.blur()">
+	<a href="index.html" onfocus="this.blur()">
 		<img src="assets/banner.png">
 	</a>
 </div>
 <div class="nav_container horizontal">
 	<div class="link_link">
-		<a href="http://totalvideopro.no-ip.biz">Home</a>
+		<a href="index.html">Home</a>
 	</div>
 	<div class="page_link">
-		<a href="cv.html" rel="history">CV</a>
+		<a href="/Info" rel="history">CV</a>
 	</div>
 	<div class="page_link">
-		<a href="contact.html" rel="history">Contact</a>
+		<a href="/Contact" rel="history">Contact</a>
+	</div>
+</div>
+<div id="content_container">
+	<div id="maincontainer" class="bodycopy" style="display: block;">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<div class="project_header"></div><div class="entry" id="entry_3627900" page_type="project"><div class="project_title">Work In Progress</div><div class="project_content">Curabitur elit erat, facilisis ut magna a, rutrum laoreet velit. Aliquam ac metus nec justo elementum lacinia quis vel augue. Vestibulum posuere cursus lorem faucibus gravida.<br>
+
+
+		<img src="assets/images/subpage/Work in Progress/L_002_WIP1.png" width="960" align="left"><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque, elit a iaculis vulputate, mi eros vulputate neque, sit amet faucibus lorem tellus eu elit. Duis at est auctor, feugiat nisi eget, malesuada elit. Cras quis nisi risus. Vivamus tincidunt, enim vitae dapibus aliquam, ligula libero volutpat mauris, sed gravida est nisi vel erat. Pellentesque molestie felis nisi, non porttitor nisl euismod eu. Maecenas magna risus, placerat a tempus vel, ultricies molestie mi. Praesent dapibus massa vel odio posuere, eget ullamcorper urna suscipit. Nullam laoreet sapien vel faucibus bibendum. Curabitur eget tellus quis ante aliquam sagittis. In sit amet elementum enim. Donec at scelerisque risus.<br>
+
+
+		<img src="assets/images/subpage/Work in Progress/L_002_WIP2.png" width="960"  align="left"><br>
+		Donec nec sem vel mauris rutrum dapibus id vulputate metus. Fusce pretium placerat ipsum, congue facilisis enim. Morbi urna arcu, consectetur eget dolor sit amet, placerat elementum mi. Nulla id fermentum tellus. Morbi malesuada ipsum felis, vel iaculis dui dignissim ut. Vivamus eros ligula, porta non turpis id, tempor mollis dolor. Donec vel hendrerit urna, quis rutrum neque. Proin quis risus tortor. Nam non est sed nisl tempor condimentum. Quisque ante mi, lacinia sodales urna vel, egestas tempor leo. Aliquam vitae odio sagittis dolor vehicula vulputate a sed nibh. Phasellus vulputate metus sed feugiat tristique. Maecenas blandit luctus enim, a adipiscing augue. Vivamus eros dolor, commodo eu lacinia vel, fringilla eget odio.
+
 	</div>
 </div>
 
-</head>
-<body>
-
-<script src="jquery.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-createHover();
-});
-function createHover() {
-$(".project_thumb").unbind('mouseenter').unbind('mouseleave'); // reset the hover to prevent doubling
-$(".project_thumb").bind("mouseenter",function() { // create hover
-$("img", this).fadeTo("fast", 0.7); // Sets the opacity to 70% on hover
-}).bind("mouseleave",function(){
-$("img", this).fadeTo("fast", 1.0); // Sets the opacity back to 100% on mouseout
-});
-$(".next_page").attr("onclick",""); // remove the pagination function
-$(".prev_page").attr("onclick",""); // remove the pagination function
-$(".next_page").click(function() { changePage((parseInt($("#current_page").val())+1),$("#limit").val()); setTimeout("createHover()",100); });
-$(".prev_page").click(function() { changePage((parseInt($("#current_page").val())-1),$("#limit").val()); setTimeout("createHover()",100); });
-}
-</script>
 <div id="content_container">
 	<div class="project_thumb" spot="-1">
 		<div id="pr_contain_item_3627900"><a href="creature.html" onmouseover="this.className='hover';" onmouseout="this.className='nohover';" class="nohover" id="p3627900" rel="history" name="benmaurodesign" onfocus="this.blur()">
