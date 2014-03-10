@@ -37,7 +37,7 @@ body {
     margin-right: auto;
     /*padding: 0 0 0 32px;*/
     position: relative;
-    width: 700px;
+    width: 960px;
     z-index: 11;
 }
 
@@ -51,7 +51,7 @@ body {
     padding: 15px 0px 0px 2px;
     position: relative;
     white-space: normal;
-    width: 700px;
+    width: 960px;
     z-index: 25;
 }
 
@@ -415,7 +415,7 @@ body {
     }
 
     .project_thumb .hover .cardimgcrop {
-        border: 5px solid #b7b7b7;
+        
     }
     
     .project_thumb .hover .thumb_title span {
