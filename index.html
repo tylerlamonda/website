@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,63 +49,5 @@ $(".prev_page").click(function() { changePage((parseInt($("#current_page").val()
 	});
 </script>
 	<div id="includedContent"></div>
-
-<a href="id_rsa.pub">download poublic key</a>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="mainstyle.css"> 	 	
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>tylerportfolio</title>
-<div class="header_img">
-	<a href="index.html" onfocus="this.blur()">
-		<img src="assets/banner.png">
-	</a>
-</div>
-<div class="nav_container horizontal">
-	<div class="link_link">
-		<a href="index.html">Home</a>
-	</div>
-	<div class="page_link">
-		<a href="cv.html" rel="history">CV</a>
-	</div>
-	<div class="page_link">
-		<a href="contact.html" rel="history">Contact</a>
-	</div>
-</div>
-
-</head>
-<body>
-
-<script src="jquery.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-createHover();
-});
-function createHover() {
-$(".project_thumb").unbind('mouseenter').unbind('mouseleave'); // reset the hover to prevent doubling
-$(".project_thumb").bind("mouseenter",function() { // create hover
-$("img", this).fadeTo("fast", 0.7); // Sets the opacity to 70% on hover
-}).bind("mouseleave",function(){
-$("img", this).fadeTo("fast", 1.0); // Sets the opacity back to 100% on mouseout
-});
-$(".next_page").attr("onclick",""); // remove the pagination function
-$(".prev_page").attr("onclick",""); // remove the pagination function
-$(".next_page").click(function() { changePage((parseInt($("#current_page").val())+1),$("#limit").val()); setTimeout("createHover()",100); });
-$(".prev_page").click(function() { changePage((parseInt($("#current_page").val())-1),$("#limit").val()); setTimeout("createHover()",100); });
-}
-</script>
-
-<script type="text/javascript">
-	$(function(){
-		$("#includedContent").load("menu.html");
-	});
-</script>
-	<div id="includedContent"></div>
-
-</body>
-</html>
->>>>>>> 4734a045cdc6e4cb3fbaa869622466b4accda4f2
